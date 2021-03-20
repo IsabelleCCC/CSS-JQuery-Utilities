@@ -1,0 +1,44 @@
+/*Steps Style*/
+.c1 {
+	background-color: var(--yellow1);
+}
+.c2 {
+	background-color: var(--yellow2);
+}
+.c3 {
+	background-color: var(--yellow3);
+}
+.c4 {
+	background-color: var(--yellow4);
+}
+.c5 {
+	background-color: var(--yellow5);
+}
+
+.step {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+	z-index: 10000;
+	transition: transform .2s;
+}
+
+.step-zoom {
+	transform: scale(1.1);
+}
+
+.step:hover {
+  transform: scale(1.2);
+}
+
+#div-steps {
+	background-color: var(--yellow3);
+/*		border-left: 3px solid var(--yellow3);*/
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	top: 13px;
+	z-index: 1;
+}
